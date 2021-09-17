@@ -127,3 +127,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+.DS_Store
+UR/.DS_Store
+UR/.idea
+UR/UR_Sep_17.csv
