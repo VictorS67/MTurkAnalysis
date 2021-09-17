@@ -15,7 +15,7 @@ def load_data(path: str) -> pd.DataFrame:
 
 def clean_data(df: pd.DataFrame, reward_name: str, arm_name: str) -> pd.DataFrame:
     try:
-        # Filter out relevant columns
+        # Filter out irrelevant columns
         df = df.filter(items=["StartDate", "EndDate", "Finished",
                               "RecordedDate", "ResponseId", "ID", reward_name, arm_name])
         # Drop first two rows
